@@ -973,76 +973,138 @@
 
     <!-- Experience Section -->
     <section id="experience" class="py-20 px-6 bg-white">
-      <div class="container mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-12 fade-in">
+      <div class="container mx-auto max-w-6xl">
+        <h2
+          class="text-4xl font-bold text-center text-gray-800 mb-16 tracking-tight"
+        >
           Work Experience
         </h2>
-        <div class="max-w-4xl mx-auto">
-          <div class="relative timeline-dot">
-            <!-- Experience 1 -->
-            <div class="flex items-center mb-12 fade-in">
-              <div class="w-1/2 pr-8 text-right">
-                <h3 class="text-xl font-semibold">Data Scientist</h3>
-                <p class="text-purple-600">
-                  Center for Integrative Omics Data Science (CIODS)
-                </p>
-                <p class="text-gray-600 text-sm">Feb 2023 – Present</p>
-              </div>
-              <div
-                class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center z-10"
-              >
-                <i class="fas fa-briefcase text-white"></i>
-              </div>
-              <div class="w-1/2 pl-8">
-                <ul class="text-gray-600 space-y-1">
-                  <li>
-                    • Developed ProteoArk, a Django-based web tool for
-                    proteomics analysis
-                  </li>
-                  <li>
-                    • Built REMEMProt, a curated membrane proteome database
-                  </li>
-                  <li>
-                    • Created HomoeOmicsDB, a multi-omics database integrating
-                    100+ studies
-                  </li>
-                  <li>• Designed institutional website using React.js</li>
-                  <li>
-                    • Built Tableau and Cytoscape.js dashboards for data
-                    visualization
-                  </li>
-                  <li>
-                    • Deployed applications on AWS EC2 with CI/CD pipelines
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <div class="relative max-w-4xl mx-auto">
+          <!-- Timeline line -->
+          <div
+            class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-purple-600 to-indigo-500 h-full"
+          ></div>
 
-            <!-- Experience 2 -->
-            <div class="flex items-center mb-12 fade-in">
-              <div class="w-1/2 pr-8 text-right">
-                <ul class="text-gray-600 space-y-1">
-                  <li>
-                    • Developed web apps with JavaScript, Node.js, and Express
-                  </li>
-                  <li>• Integrated REST APIs for seamless data flow</li>
-                  <li>
-                    • Enhanced code quality using Git, reducing conflicts by 15%
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center z-10"
+          <!-- Experience 1 -->
+          <div class="flex items-center mb-16 group">
+            <div class="w-1/2 pr-10 text-right">
+              <h3 class="text-2xl font-semibold text-gray-800">
+                Data Scientist
+              </h3>
+              <p class="text-purple-600 font-medium">
+                Center for Integrative Omics Data Science (CIODS), Mangalore
+              </p>
+              <p class="text-gray-500 text-sm mt-1">Feb 2023 – Present</p>
+            </div>
+            <div
+              class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center z-10 transform group-hover:scale-110 transition-transform duration-300"
+            >
+              <svg
+                class="w-6 h-6 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <i class="fas fa-briefcase text-white"></i>
-              </div>
-              <div class="w-1/2 pl-8">
-                <h3 class="text-xl font-semibold">
-                  Full Stack Developer Intern
-                </h3>
-                <p class="text-purple-600">Voxbay Solutions Pvt. Ltd.</p>
-                <p class="text-gray-600 text-sm">Aug 2022 – Sept 2022</p>
-              </div>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 17v-6h6v6m-6 4h6m4-14h-4V3a2 2 0 00-2-2H9a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="w-1/2 pl-10">
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start">
+                  <span class="text-purple-500 mr-2">•</span> Developed
+                  ProteoArk, a Django-based web tool for proteomics analysis
+                  integrating computational pipelines for mass spectrometry
+                  data, supporting label-free and labeled samples, differential
+                  expression analysis, and one-click generation of
+                  manuscript-ready figures.
+                </li>
+                <li class="flex items-start">
+                  <span class="text-purple-500 mr-2">•</span> Built REMEMProt, a
+                  database of 14,626 membrane-associated proteins (9,507 human,
+                  5,119 mouse) with experimental context and biomarker status,
+                  enabling batch querying and cross-study enrichment analysis of
+                  membrane proteomes.
+                </li>
+                <li class="flex items-start">
+                  <span class="text-purple-500 mr-2">•</span> Created
+                  HomoeOmicsDB, integrating 100+ peer-reviewed studies on 65
+                  homeopathic drugs across 50+ human and animal cell lines,
+                  providing a unified platform for multi-omic analysis of gene
+                  expression at RNA, protein, and post-translational levels.
+                </li>
+                <li class="flex items-start">
+                  <span class="text-purple-500 mr-2">•</span> Designed and
+                  deployed a React.js institutional website that enhances data
+                  accessibility through intuitive API integration and responsive
+                  design.
+                </li>
+                <li class="flex items-start">
+                  <span class="text-purple-500 mr-2">•</span> Built interactive
+                  Tableau and Cytoscape.js dashboards for visualizing complex
+                  biological networks and deriving data insights.
+                </li>
+                <li class="flex items-start">
+                  <span class="text-purple-500 mr-2">•</span> Implemented AWS
+                  EC2 deployment with CI/CD pipelines that reduced application
+                  release time by 40%.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="flex items-center mb-16 group">
+            <div class="w-1/2 pr-10 text-left">
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex items-start justify-end">
+                  <span class="text-purple-500 mr-2">•</span> Developed
+                  JavaScript/Node.js web apps; boosted user engagement by 25%
+                  and session duration by 30%.
+                </li>
+                <li class="flex items-start justify-end">
+                  <span class="text-purple-500 mr-2">•</span> Integrated REST
+                  APIs reducing data latency by 40%; improved system reliability
+                  to 99.9% uptime.
+                </li>
+                <li class="flex items-start justify-end">
+                  <span class="text-purple-500 mr-2">•</span> Implemented Git
+                  workflows; reduced code conflicts by 15% and accelerated team
+                  velocity by 20%.
+                </li>
+              </ul>
+            </div>
+            <div
+              class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center z-10 transform group-hover:scale-110 transition-transform duration-300"
+            >
+              <svg
+                class="w-6 h-6 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 17v-6h6v6m-6 4h6m4-14h-4V3a2 2 0 00-2-2H9a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="w-1/2 pl-10">
+              <h3 class="text-2xl font-semibold text-gray-800">
+                Full Stack Developer Intern
+              </h3>
+              <p class="text-purple-600 font-medium">
+                Voxbay Solutions Pvt. Ltd., Kochi
+              </p>
+              <p class="text-gray-500 text-sm mt-1">Aug 2022 – Sept 2022</p>
             </div>
           </div>
         </div>
@@ -1434,5 +1496,3 @@
     </script>
   </body>
 </html>
-
-
